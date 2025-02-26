@@ -2,6 +2,8 @@ import { FaFacebook, FaGithub } from 'react-icons/fa';
 import portfolioImg from '../assets/portfolio-image.png'
 import { ImLinkedin } from 'react-icons/im';
 import { Link } from 'react-router-dom';
+import { LuSend } from 'react-icons/lu';
+import { MdDownloadForOffline } from 'react-icons/md';
 
 const Banner = () => {
     return (
@@ -26,11 +28,11 @@ const Banner = () => {
 
 <div className='flex flex-row items-center mt-4 md:flex-row gap-6'>
                     <Link to='/resume'>
-                        <button className=" rounded-lg  font-bold border-2 cursor-pointer border-red-600 bg-red-600 text-white py-2 px-6 md:px-10 text-lg">My Resume</button>
+                        <button className=" flex items-center justify-center gap-4  rounded-lg  font-bold border-2 cursor-pointer border-red-600 bg-red-600 text-white py-2 px-6 md:px-10 text-lg">My Resume< MdDownloadForOffline className='text-2xl' /></button>
                     </Link>
 
 
-                    <a className=" text-xl  border-2 cursor-pointer border-red-600 text-white font-bold w-44   text-center py-2 rounded-lg" href="#contact">Contact Me</a>
+                    <a className=" text-xl flex items-center justify-center gap-4 border-2 cursor-pointer border-red-600 text-white font-bold w-48   text-center py-2 rounded-lg" href="#contact">Contact Me <LuSend /></a>
 </div>
     
 
