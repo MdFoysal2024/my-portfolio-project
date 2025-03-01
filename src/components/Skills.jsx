@@ -41,7 +41,7 @@ import bootstrapImg from '../assets/Bootstrap.png'
 
 const Skills = () => {
     return (
-        <div id='skills' className="px-6 md:px-0   mt-24 pt-24">
+        <div id='skills' className="px-6 md:px-0  pt-24">
             <h2 className="text-4xl text-left mb-2 font-bold py-8"> Skills</h2>
 
             {/* <div className="grid gap-6 pt-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-8">

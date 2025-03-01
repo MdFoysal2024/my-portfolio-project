@@ -4,7 +4,11 @@ import webImg from '../assets/web.png'
 
 const Course = () => {
     return (
-        <div id="course" className="px-6 md:px-0  mt-24 pt-24">
+
+
+        <section className=' relative  bg-[#10171d]'>
+
+        <div id="course" className="container mx-auto px-6 md:px-0   pt-24">
             <h2 className="text-4xl text-center py-8 font-bold"> Course</h2>
             <div className=" grid gap-12 pt-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
                 <div className="bg-gray-800 p-12 rounded">
@@ -30,6 +34,7 @@ const Course = () => {
                 </div>
             </div>
         </div>
+        </section>
     );
 };
 

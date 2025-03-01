@@ -2,7 +2,11 @@ import contact from '../assets/Contact.png'
 
 const ContactMe = () => {
     return (
-        <div id='contact' className=" px-6 md:px-0   mt-24 py-24 ">
+
+
+        <section className='relative bg-[#10171d]'>
+
+        <div id='contact' className=" container mx-auto px-6 md:px-0    py-24 ">
             <h2 className="text-4xl text-center font-bold py-8"> Contact Me</h2>
 
             <div className="grid gap-6 pt-6 grid-cols-1 md:grid-cols-2 ">
@@ -43,6 +47,7 @@ const ContactMe = () => {
 
             </div>
         </div>
+        </section>
     );
 };
 

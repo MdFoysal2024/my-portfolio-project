@@ -28,7 +28,7 @@ const Navbar = () => {
 
 
     return (
-        <header className='sticky top-0 z-50 w-full border-b py-2 border-gray-800 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 px-4 lg:px-0'>
+        <header className='fixed top-0 z-50 w-full border-b py-2 border-gray-800 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 px-4 lg:px-0'>
       <div className=' container mx-auto flex h-14 items-center'>
         <div className='md:mr-4 flex justify-between w-full'>
 
@@ -45,15 +45,15 @@ const Navbar = () => {
         <button className='inline-flex items-center justify-center rounded-md md:hidden' onClick={()=>setMobileMenuOpen(!mobileMenuOpen)}>
            <span className='sr-only'>Open main menu</span>
            {mobileMenuOpen ? (
-            <X className='h-6 w-6' aria-hidden="true"/>
+            <X className='h-6 w-6 text-red-600' aria-hidden="true"/>
            ):(
-            <Menu className='h-6 w-6' aria-hidden="true"/>
+            <Menu className='h-6 w-6 text-red-600' aria-hidden="true"/>
            )}
         </button>
       </div>
       {mobileMenuOpen && (
         <div className='md:hidden'>
-            <ul className='space-y-1 px-2 pb-3 pt-2'>
+            <ul className='space-y-1 bg-gray-800 px-2 pb-3 pt-2'>
                 {links}
             </ul>
         </div>

@@ -6,25 +6,24 @@ import Education from "./Education";
 import Projects from "./Projects";
 import RunningSection from "./RunningSection";
 //import Skills from "./Skills";
-
+import ParticleBackground from './Particle'
 
 const Home = () => {
     return (
         <div>
-           <Banner></Banner>
-           <RunningSection></RunningSection>
 
-           <div className="flex gap-24 justify-between">
 
-           <AboutMe></AboutMe>
-          
-           
-           </div>
-           
-           <Education></Education>
-           <Course></Course>
-           <Projects></Projects>
-           <ContactMe></ContactMe>
+            <ParticleBackground />
+            <Banner></Banner>
+            <RunningSection></RunningSection>
+
+            <AboutMe></AboutMe>
+
+            <Education></Education>
+            <Course></Course>
+            <Projects></Projects>
+            <ContactMe></ContactMe>
+
         </div>
     );
 };
