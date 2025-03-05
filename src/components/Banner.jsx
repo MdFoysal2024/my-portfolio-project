@@ -15,7 +15,6 @@ const Banner = () => {
     })
 
 
-
     return (
         <section className='relative'>
             <div id='banner' className=' container mx-auto  px-6 md:px-0  lg:px-0 pt-8'>

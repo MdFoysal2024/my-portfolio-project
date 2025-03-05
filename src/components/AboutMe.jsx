@@ -5,7 +5,6 @@ import Skills from "./Skills";
 
 const AboutMe = () => {
     return (
-
         <section className="relative " >
 
             <div className="bg-[#10171d]">

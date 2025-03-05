@@ -45,7 +45,6 @@ const Projects = () => {
                     </div>
 
 
-
                     <div className="flex bg-gray-800 p-6 rounded-lg flex-col gap-6">
                         <img className="rounded-lg" src={project04} alt="" />
                         <h3 className="text-2xl font-semibold">🤵🏻 Portfolio Website </h3>
@@ -56,24 +55,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
-
-
-
-
 
             </div>
         </section>

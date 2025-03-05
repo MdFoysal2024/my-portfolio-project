@@ -44,46 +44,7 @@ const Skills = () => {
         <div id='skills' className="px-6 md:px-0  pt-36">
             <h2 className="text-3xl  md:text-5xl text-center md:text-left   mb-2 font-bold py-8"> Skills</h2>
 
-            {/* <div className="grid gap-6 pt-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-8">
-
-                <div className=" bg-gray-800 rounded-2xl p-4 flex flex-col items-center">
-                    <img className='w-16 md:w-24 lg:w-36' src={htmlImg} alt="" />
-                    <p className='text-xl'>HTML</p>
-                </div>
-                <div className=" bg-gray-800 rounded-2xl p-4 flex flex-col items-center">
-                    <img className='w-16 md:w-24 lg:w-36' src={cssImg} alt="" />
-                    <p className='text-xl'>CSS</p>
-                </div>
-                <div className=" bg-gray-800 rounded-2xl p-4 flex flex-col items-center">
-                    <img className='w-16 md:w-24 lg:w-36' src={jsImg} alt="" />
-                    <p className='text-xl'>JavaScript</p>
-                </div>
-                <div className=" bg-gray-800 rounded-2xl p-4 flex flex-col items-center">
-                    <img className='w-16 md:w-24 lg:w-36' src={reactImg} alt="" />
-                    <p className='text-xl'>React.js</p>
-                </div>
-                <div className=" bg-gray-800 rounded-2xl p-4 flex flex-col items-center">
-                    <img className='w-16 md:w-24 lg:w-36' src={mongoBDImg} alt="" />
-                    <p className='text-xl'>Mongo DB</p>
-                </div>
-                <div className=" bg-gray-800 rounded-2xl p-4 flex flex-col items-center">
-                    <img className='w-16 md:w-24 lg:w-36' src={nodeImg} alt="" />
-                    <p className='text-xl'>Node.js</p>
-                </div>
-                <div className=" bg-gray-800 rounded-2xl p-4 flex flex-col items-center">
-                    <img className='w-16 md:w-24 lg:w-36' src={tailwindImg} alt="" />
-                    <p className='text-xl'>Tailwind</p>
-                </div>
-                <div className=" bg-gray-800 rounded-2xl p-4 flex flex-col items-center">
-                    <img className='w-16 md:w-24 lg:w-36' src={firebaseImg} alt="" />
-                    <p className='text-xl'>Firebase</p>
-                </div>
-
-
-
-
-            </div> */}
-
+           
             <div className=' '>
                 <div className=' grid grid-cols-2 md:grid-cols-3 pt-6   gap-4 '>
                     <div className=" rounded px-6 py-2 justify-center  bg-gray-800 flex flex-row gap-1   items-center">

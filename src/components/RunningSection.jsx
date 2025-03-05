@@ -12,59 +12,62 @@ import nextTextImg from '../assets/next-text.js.png'
 import githubImg from '../assets/github.png'
 import expressImg from '../assets/express.png'
 
+
 const RunningSection = () => {
+    
     return (
         <div className="mt-12 pb-6 container mx-auto px-6 md:px-0">
-        <Marquee>
-       
-            <div className=" rounded-2xl  flex flex-row gap-1 mr-12  items-center">
-                <img className='w-8' src={htmlImg} alt="" />
-                <p className=''>HTML5</p>
-            </div>
-            <div className=" rounded-2xl  flex flex-row gap-1 mr-12  items-center">
-                <img className='w-8' src={cssImg} alt="" />
-                <p className=''>CSS3</p>
-            </div>
-            <div className=" rounded-2xl  flex flex-row gap-1 mr-12  items-center">
-                <img className='w-8' src={jsImg} alt="" />
-                <p className=''>JavaScript</p>
-            </div>
-            <div className=" rounded-2xl  flex flex-row gap-2 mr-12  items-center">
-                <img className='w-8' src={reactImg} alt="" />
-                <p className=''>React.js</p>
-            </div>
-            <div className=" rounded-2xl  flex flex-row gap-1 mr-12  items-center">
-                <img className='w-8' src={mongoBDImg} alt="" />
-                <p className=''>Mongo DB</p>
-            </div>
-            <div className=" rounded-2xl  flex flex-row gap-2 mr-12  items-center">
-                <img className='w-8' src={nodeImg} alt="" />
-                <p className=''>Node.js</p>
-            </div>
-            <div className=" rounded-2xl  flex flex-row gap-3 mr-12  items-center">
-                <img className='w-8' src={tailwindImg} alt="" />
-                <p className=''>Tailwind CSS</p>
-            </div>
-            <div className="  rounded-2xl  flex flex-row gap-1 mr-12  items-center">
-                <img className='w-8' src={firebaseImg} alt="" />
-                <p className=''>Firebase</p>
-            </div>
-            <div className="  rounded-2xl  flex flex-row gap-1 mr-12  items-center">
-                <img className='w-8' src={githubImg} alt="" />
-                <p className=' pl-2'> GitHub</p>
-            </div>
-             <div className="  rounded-2xl  flex flex-row gap-1 mr-12  items-center">
-                <img className='w-8' src={nextImg} alt="" />
-                <img className='w-8 ml-2' src={nextTextImg} alt="" />
-                
-            </div>
-            <div className=" rounded-2xl  flex flex-row gap-2 mr-12  items-center">
-                                    <img className='w-8' src={expressImg} alt="" />
-                                    <p className=''>Express.js</p>
-                                </div>
 
-            </Marquee> 
-    </div>
+            <Marquee>
+
+                <div className=" rounded-2xl  flex flex-row gap-1 mr-12  items-center">
+                    <img className='w-8' src={htmlImg} alt="" />
+                    <p className=''>HTML5</p>
+                </div>
+                <div className=" rounded-2xl  flex flex-row gap-1 mr-12  items-center">
+                    <img className='w-8' src={cssImg} alt="" />
+                    <p className=''>CSS3</p>
+                </div>
+                <div className=" rounded-2xl  flex flex-row gap-1 mr-12  items-center">
+                    <img className='w-8' src={jsImg} alt="" />
+                    <p className=''>JavaScript</p>
+                </div>
+                <div className=" rounded-2xl  flex flex-row gap-2 mr-12  items-center">
+                    <img className='w-8' src={reactImg} alt="" />
+                    <p className=''>React.js</p>
+                </div>
+                <div className=" rounded-2xl  flex flex-row gap-1 mr-12  items-center">
+                    <img className='w-8' src={mongoBDImg} alt="" />
+                    <p className=''>Mongo DB</p>
+                </div>
+                <div className=" rounded-2xl  flex flex-row gap-2 mr-12  items-center">
+                    <img className='w-8' src={nodeImg} alt="" />
+                    <p className=''>Node.js</p>
+                </div>
+                <div className=" rounded-2xl  flex flex-row gap-3 mr-12  items-center">
+                    <img className='w-8' src={tailwindImg} alt="" />
+                    <p className=''>Tailwind CSS</p>
+                </div>
+                <div className="  rounded-2xl  flex flex-row gap-1 mr-12  items-center">
+                    <img className='w-8' src={firebaseImg} alt="" />
+                    <p className=''>Firebase</p>
+                </div>
+                <div className="  rounded-2xl  flex flex-row gap-1 mr-12  items-center">
+                    <img className='w-8' src={githubImg} alt="" />
+                    <p className=' pl-2'> GitHub</p>
+                </div>
+                <div className="  rounded-2xl  flex flex-row gap-1 mr-12  items-center">
+                    <img className='w-8' src={nextImg} alt="" />
+                    <img className='w-8 ml-2' src={nextTextImg} alt="" />
+
+                </div>
+                <div className=" rounded-2xl  flex flex-row gap-2 mr-12  items-center">
+                    <img className='w-8' src={expressImg} alt="" />
+                    <p className=''>Express.js</p>
+                </div>
+
+            </Marquee>
+        </div>
     );
 };
 

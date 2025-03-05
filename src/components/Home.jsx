@@ -5,20 +5,16 @@ import Course from "./Course";
 import Education from "./Education";
 import Projects from "./Projects";
 import RunningSection from "./RunningSection";
-//import Skills from "./Skills";
 import ParticleBackground from './Particle'
 
 const Home = () => {
     return (
         <div>
 
-
             <ParticleBackground />
             <Banner></Banner>
             <RunningSection></RunningSection>
-
             <AboutMe></AboutMe>
-
             <Education></Education>
             <Course></Course>
             <Projects></Projects>
