@@ -4,15 +4,12 @@
      <img height="480" src="https://i.ibb.co.com/FbcF1X1W/My-portfolio.png"  />
   </a>
 
-<p>
-
-</p>
-
 
 **🤵🏻 MD Foysal's Personal**  portfolio website showcases his expertise as a Frontend Developer specializing in HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB. The website features a sleek, dark-themed design with a modern aesthetic, highlighting his skills, experience, and projects. Visitors can explore sections such as About Me, Education, Projects, Courses, and Contact Me, as well as download his resume or connect via social media. With a focus on user-friendly and high-performance web experiences, this portfolio effectively represents Foysal’s technical abilities and professional identity.
 
 🚀 **Live Demo:** [Md Foysal Portfolio](https://leafy-stardust-f235ce.netlify.app/)
 
+---
 
 ## 📑 Table of Contents
 - [Features](#features)
@@ -60,7 +57,8 @@ The project is built with:
 - Vite (for fast development)
 - ESLint (for code linting)
 - DaisyUI (for additional UI components)
-
+- 
+---
 
 For a full list of dependencies, refer to package.json.
 
@@ -152,6 +150,7 @@ If you have any questions or want to connect, feel free to reach out:
 - 🐦 Twitter/X: @yourhandle
 - 📸 Instagram: @yourhandle
 
+---
 
 ## 🌍 Live Demo & Repository
 
