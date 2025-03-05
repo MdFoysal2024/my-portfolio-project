@@ -2,6 +2,7 @@ import { FaEye, FaGithub } from "react-icons/fa";
 import project01 from '../assets/project-01.jpg'
 import project02 from '../assets/project-02.jpg'
 import project03 from '../assets/project-03.jpg'
+import project04 from '../assets/project-04.jpg'
 
 const Projects = () => {
     return (
@@ -40,6 +41,18 @@ const Projects = () => {
                         <div className="flex gap-4">
                             <a className=" flex items-center justify-center gap-3  rounded-lg  font-bold border-2 cursor-pointer border-red-600 bg-red-600 text-white py-2 px-4 md:px-4 text-lg"  href="https://inspiring-cendol-2005b3.netlify.app/" target='_blank'> <FaEye /> Live <span className="hidden md:flex">Preview</span></a>
                             <a className=" flex items-center justify-center gap-3  rounded-lg  font-bold border-2 cursor-pointer border-gray-600 bg-gray-600 text-white py-2 px-6 md:px-6 text-lg"  href="https://github.com/MdFoysal2024/assignment-10-client-side?tab=readme-ov-file" target='_blank'><FaGithub />GitHub<span className="hidden md:flex">Link</span></a>
+                        </div>
+                    </div>
+
+
+
+                    <div className="flex bg-gray-800 p-6 rounded-lg flex-col gap-6">
+                        <img className="rounded-lg" src={project04} alt="" />
+                        <h3 className="text-2xl font-semibold">🤵🏻 Portfolio Website </h3>
+                        <p className="text-justify" >MD Foysal&rsquo;s Personal portfolio website showcases his expertise as a Frontend Developer specializing in HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB. The website features a sleek, dark-themed design with a modern aesthetic, highlighting his skills, experience, and projects.  </p>
+                        <div className="flex gap-4">
+                            <a className=" flex items-center justify-center gap-3  rounded-lg  font-bold border-2 cursor-pointer border-red-600 bg-red-600 text-white py-2 px-4 md:px-4 text-lg"  href="https://inspiring-cendol-2005b3.netlify.app/" target='_blank'> <FaEye /> Live <span className="hidden md:flex">Preview</span></a>
+                            <a className=" flex items-center justify-center gap-3  rounded-lg  font-bold border-2 cursor-pointer border-gray-600 bg-gray-600 text-white py-2 px-6 md:px-6 text-lg"  href="https://github.com/MdFoysal2024/my-portfolio-project" target='_blank'><FaGithub />GitHub<span className="hidden md:flex">Link</span></a>
                         </div>
                     </div>
 
