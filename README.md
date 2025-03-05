@@ -160,7 +160,7 @@ If you have any questions or want to connect, feel free to reach out:
 
 ---
 
-**🚀Thanks for visit my Project & GitHub Profile**
+**🚀Thanks for visit my Project & GitHub Profile.**
 
 
 
