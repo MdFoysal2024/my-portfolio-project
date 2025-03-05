@@ -9,10 +9,7 @@
 </p>
 
 
-**🩸 BLOOD FOR LIFE** is a life-saving online platform dedicated to connecting blood donors with those in urgent need. Our mission is to bridge the gap between blood donors and patients by providing a seamless, efficient, and secure way to find and donate blood.
-
-Whether you're a donor looking to make a difference or someone searching for a blood donor in an emergency, BLOOD FOR LIFE makes the process easy and accessible. With real-time donor databases, blood bank connections, and emergency alerts, we ensure that every drop counts.
-
+**🩸 Portfolio Website** This is a personal portfolio website for Md Foysal, a Frontend Developer specializing in HTML, CSS, JavaScript, React.js, Node.js, MongoDB, and Express.js. The website showcases his skills, projects, education, and contact information. It features a modern, dark-themed design with interactive elements, social media links, and a resume download option.
 
 🚀 **Live Demo:** [Md Foysal Portfolio](https://leafy-stardust-f235ce.netlify.app/)
 
