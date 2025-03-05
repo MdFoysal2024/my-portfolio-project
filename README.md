@@ -43,13 +43,6 @@
 
 The project is built with:
 
-- **React 18.3.1** 
-- **React 18** – Modern UI framework
-- **Vite** – Fast development and build tool
-- **Tailwind CSS & DaisyUI** – For styling
-- **React Router** – Navigation and routing
-- **Framer Motion** – Animations
-
 **Frontend:**
 - React.js
 - Tailwind CSS
@@ -57,32 +50,18 @@ The project is built with:
 - Lottie React (for animated illustrations)
 - React Router (for navigation)
 
+**Other Libraries:**
+- React Icons (for UI icons)
+- Lucide React (modern icon set)
+- React Simple Typewriter (for animated text effects)
+- React Fast Marquee (for smooth scrolling elements)
+
+**Development Tools:**
+- Vite (for fast development)
+- ESLint (for code linting)
+- DaisyUI (for additional UI components)
 
 
-## Other Libraries:
-React Icons (for UI icons)
-Lucide React (modern icon set)
-React Simple Typewriter (for animated text effects)
-React Fast Marquee (for smooth scrolling elements)
-
-
-
-## Development Tools:
-Vite (for fast development)
-ESLint (for code linting)
-DaisyUI (for additional UI components)
-
-
-
-
-
-
-
-
-
-
-
-  
 For a full list of dependencies, refer to package.json.
 
 ## 🚀 Installation
