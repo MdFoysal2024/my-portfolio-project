@@ -12,11 +12,11 @@ const AboutMe = () => {
 
                 <div className="container mx-auto ">
 
-                    <div className="   flex flex-col md:flex-col  lg:flex-row justify-between  gap-24" >
+                    <div className="   flex flex-col md:flex-col  lg:flex-row justify-between  md:gap-24" >
 
-                        <div id="about" className=" lg:w-1/2   pt-24 px-6 md:px-0  lg:px-0">
-                            <h2 className="text-4xl font-bold text-left py-8"> About Me</h2>
-                            <p className=" text-justify text-lg text-gray-400 ">
+                        <div id="about" className=" lg:w-1/2   pt-36 px-6 md:px-0  lg:px-0">
+                            <h2 className="text-3xl  md:text-5xl text-center md:text-left font-bold  py-8"> About Me</h2>
+                            <p className=" text-justify text-lg text-gray-400 pt-6">
                                 Hi, <span className="font-bold">I’m Foysal,</span> a passionate Frontend Developer dedicated to crafting seamless, user-friendly, and visually appealing web experiences. With expertise in <span className="font-bold">HTML, CSS, JavaScript, Express.js, Node.js, MongoDB and modern frameworks like React.js</span>, I specialize in building responsive and high-performance interfaces that enhance usability and engagement.
 
 

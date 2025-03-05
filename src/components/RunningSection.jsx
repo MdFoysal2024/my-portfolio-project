@@ -14,7 +14,7 @@ import expressImg from '../assets/express.png'
 
 const RunningSection = () => {
     return (
-        <div className="mt-16 pb-6 container mx-auto px-6 md:px-0">
+        <div className="mt-12 pb-6 container mx-auto px-6 md:px-0">
         <Marquee>
        
             <div className=" rounded-2xl  flex flex-row gap-1 mr-12  items-center">
