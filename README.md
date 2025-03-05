@@ -50,12 +50,12 @@ The project is built with:
 - **React Router** – Navigation and routing
 - **Framer Motion** – Animations
 
-## Frontend:
-React.js
-Tailwind CSS
-Framer Motion (for animations)
-Lottie React (for animated illustrations)
-React Router (for navigation)
+**Frontend:**
+- React.js
+- Tailwind CSS
+- Framer Motion (for animations)
+- Lottie React (for animated illustrations)
+- React Router (for navigation)
 
 
 
