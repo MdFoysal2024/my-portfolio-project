@@ -72,8 +72,8 @@ Ensure you have the following installed:
 ## 1. Clone the repository:
 
 ```
-git clone https://github.com/MdFoysal2024/assignment-12-client-side.git
-cd marathon-events
+git clone https://github.com/MdFoysal2024/my-portfolio-project.git
+cd my-portfolio-project
 ```
 ## 2. Install dependencies:
 ```
