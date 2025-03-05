@@ -135,7 +135,7 @@ This project is licensed under the **MIT License.**
 ## 🌍 Live Demo & Repository
 
 - **Live Site:** [Md Foysal Portfolio](https://leafy-stardust-f235ce.netlify.app/)
-- **GitHub Repository:** [GitHub Link](https://github.com/MdFoysal2024/assignment-12-client-side)
+- **GitHub Repository:** [GitHub Link](https://github.com/MdFoysal2024/my-portfolio-project/tree/main)
 
 ---
 
