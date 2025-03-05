@@ -13,11 +13,11 @@ const Navbar = () => {
 
     const links = <>
         <li ><NavLink to='/' style={({ isActive }) => ({ fontWeight: isActive ? "bold" : "normal", color: isActive ? "orangered" : "white",  textDecoration: isActive ? "underline" : "" })}>Home</NavLink></li>
-        <li> <NavHashLink to='/#about'>About Me</NavHashLink> </li>
+        <li> <NavHashLink to='/#about'>About </NavHashLink> </li>
         <li> <NavHashLink to='/#education'>Education</NavHashLink> </li>
         <li> <NavHashLink to='/#course'>Course</NavHashLink> </li>
         <li> <NavHashLink to='/#projects'>Projects</NavHashLink> </li>
-        <li> <NavHashLink to='/#contact'>Contact Me</NavHashLink> </li>
+        <li> <NavHashLink to='/#contact'>Contact </NavHashLink> </li>
         {/* <li ><NavLink to='/resume'
             style={({ isActive }) => ({ fontWeight: isActive ? "bold" : "normal", color: isActive ? "orangered" : "white",  textDecoration: isActive ? "underline" : "" })}
         >Resume</NavLink></li> */}
