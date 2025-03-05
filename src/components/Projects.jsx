@@ -15,8 +15,8 @@ const Projects = () => {
 
                     <div className="flex bg-gray-800 p-6 rounded-lg flex-col gap-6">
                         <img className="rounded-lg" src={project01} alt="" />
-                        <h3 className="text-2xl font-semibold">🩸 BLOOD FOR LIFE</h3>
-                        <p className="text-justify">BLOOD FOR LIFE is a life-saving online platform dedicated to connecting blood donors with those in urgent need. Our mission is to bridge the gap between blood donors and patients by providing a seamless, efficient, and secure way to find and donate blood.</p>
+                        <h3 className="text-2xl font-semibold">🩸 Blood For Life</h3>
+                        <p className="text-justify">Blood For Life is a life-saving online platform dedicated to connecting blood donors with those in urgent need. Our mission is to bridge the gap between blood donors and patients by providing a seamless, efficient, and secure way to find and donate blood.</p>
                         <div className="flex gap-4">
                             <a className=" flex items-center justify-center gap-3  rounded-lg  font-bold border-2 cursor-pointer border-red-600 bg-red-600 text-white py-2 px-4 md:px-4 text-lg"  href="https://blood-donation-project-b1849.web.app/" target='_blank'> <FaEye /> Live <span className="hidden md:flex">Preview</span></a>
                             <a className=" flex items-center justify-center gap-3  rounded-lg  font-bold border-2 cursor-pointer border-gray-600 bg-gray-600 text-white py-2 px-6 md:px-6 text-lg"  href="https://github.com/MdFoysal2024/assignment-12-client-side?tab=readme-ov-file" target='_blank'><FaGithub />GitHub<span className="hidden md:flex">Link</span></a>
@@ -35,7 +35,7 @@ const Projects = () => {
                     </div>
                     <div className="flex bg-gray-800 p-6 rounded-lg flex-col gap-6">
                         <img className="rounded-lg" src={project03} alt="" />
-                        <h3 className="text-2xl font-semibold">📢Crowd funding</h3>
+                        <h3 className="text-2xl font-semibold">💰 Crowd Funding</h3>
                         <p className="text-justify" >Crowd funding is a dynamic online platform designed to help individuals, startups, and organizations raise funds for their projects, causes, or business ventures. Whether are an entrepreneur launching a new product, an artist seeking financial backing, or a nonprofit organization . . . </p>
                         <div className="flex gap-4">
                             <a className=" flex items-center justify-center gap-3  rounded-lg  font-bold border-2 cursor-pointer border-red-600 bg-red-600 text-white py-2 px-4 md:px-4 text-lg"  href="https://inspiring-cendol-2005b3.netlify.app/" target='_blank'> <FaEye /> Live <span className="hidden md:flex">Preview</span></a>

@@ -9,7 +9,7 @@ const ContactMe = () => {
         <div id='contact' className=" container mx-auto px-6 md:px-0    py-36 ">
             <h2 className="text-3xl  md:text-5xl text-center md:text-left font-bold py-8"> Contact Me</h2>
 
-            <div className="grid gap-6 pt-6 grid-cols-1 md:grid-cols-2 ">
+            <div className="grid gap-24 md:12 pt-6 grid-cols-1 md:grid-cols-2 ">
 
                 <div className=" bg-gray-800 rounded-2xl p-4 flex flex-col items-center">
 
